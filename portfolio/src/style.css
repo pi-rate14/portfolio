@@ -1,0 +1,167 @@
+body{
+    background-color: #161515 !important;
+    color: #D1CDCC!important;
+    font-family: 'Open Sans', sans-serif;font-family: 'open sans';
+}
+@media screen and (min-width: 800px) {
+    img{
+        filter: grayscale(100%);
+       filter: gray; /* IE 6-9 */
+    }
+}
+
+
+img:hover {
+    -webkit-filter: none;
+    -moz-filter: none;
+    -ms-filter: none;
+    filter: none;
+    transition: 0.5s;
+ }
+.container{
+    color: #D1CDCC!important;
+}
+nav.navbar{
+    background-color: #161515!important;
+    padding-bottom: 5%;
+}
+nav.navbar a{
+    font-size: medium;
+    color: #D1CDCC!important;
+    padding-left: 5%;
+    padding-top: 2%;
+}
+nav.navbar marquee{
+    width: 10%;
+    margin-right: 5%;
+    
+}
+
+.container.timeline.proj img:hover{
+    transform: scale(1.2);
+}
+
+.container.name{
+    text-align: center;
+    
+}
+.container.name h1{
+    font-size: 9vw;
+    font-weight: 600;
+}
+
+.container.name img{
+    width: 38vw;
+    padding-top: 13%;
+}
+
+.container.desc{
+    padding-top: 5%;
+    text-align: left;
+}
+
+.container.desc p.leftD{
+    font-size: 4vw;
+    font-weight: 600;
+    line-height: 110%;
+  
+}
+
+.container.desc p.rightD{
+    font-size: 4vw;
+    font-weight: 600;
+    line-height: 110%;
+    padding-top: 2% ;
+    text-align: right;
+}
+
+.container.icons{
+    margin-top: 10%;
+}
+
+.container.icons img{
+    max-width: 100%;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container.icons img:hover{
+    transform: scale(1.2);
+}
+
+.container.icons .rowbtm{
+    padding-top: 3%;
+}
+.container.icons .rowbtm img{
+    max-width: 50%;
+    padding: 0;
+}
+
+.container.timeline img{
+    max-width: 100%;
+}
+
+.container.timeline .row{
+    padding-top: 15%;
+}
+
+
+
+.container.marqL div {
+    margin-top: 20%;
+    height: 50px;
+    color: #161515;
+    background: #999695;
+    padding-top: 0;
+  width: 100%;
+  z-index: 1;
+  font-size: 32px;
+  -ms-transform: rotate(-4deg);
+  /* IE 9 */
+  -webkit-transform: rotate(-4deg);
+  /* Safari */
+  transform: rotate(-4deg);
+}
+.container.marqR div {
+    height: 50px;
+    color: #161515;
+    background: #D1CDCC;
+    margin-top: -5%;
+    padding-top: 0;
+  width: 100%;
+  z-index: 1;
+  font-size: 32px;
+  -ms-transform: rotate(4deg);
+  /* IE 9 */
+  -webkit-transform: rotate(4deg);
+  /* Safari */
+  transform: rotate(4deg);
+}
+ 
+.container.ending{
+    margin-top: 5%;
+}
+
+.container.ending ul{
+    margin-top: 2%;
+    text-decoration: none;
+    list-style-type: none;
+    padding: 0;
+}
+.container.ending ul li a{
+    color: #D1CDCC; 
+    text-decoration: none;
+    font-size: 2vw;
+}
+.BeforeScroll
+{
+  display: none;
+}
+
+
+/*Use this class when you want your content to be shown after some scroll*/
+.AfterScroll
+{
+  display: block;
+  transition: 1s;
+}

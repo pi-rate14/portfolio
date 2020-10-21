@@ -165,3 +165,12 @@ nav.navbar marquee{
   display: block;
   transition: 1s;
 }
+
+.ml15 {
+    font-weight: 800;
+    text-transform: uppercase;
+  }
+  
+  .ml15 .word {
+    display: inline-block;
+  }
